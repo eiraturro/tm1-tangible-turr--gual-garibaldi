@@ -2,7 +2,7 @@
 
 **Tue 03/11** · _Tangible interaction, Arduino, basic electricity, a first LED circuit_
 
-**Team:** _Eira Turró, Xènia Gual, _
+**Team:** _Eira Turró, Xènia Gual, Carla Milene_
 
 ---
 
