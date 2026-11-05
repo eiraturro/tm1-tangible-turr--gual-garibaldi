@@ -2,20 +2,18 @@
 
 **Thu 05/11** · _Buttons, pull-up resistors, edge detection, Serial Monitor, potentiometer, PWM, `map()`_
 
-**Team:** _Name Surname, Name Surname, Name Surname_
+**Team:** _Eira Turró, Raul Ruiz, Xènia Gual_
 
 ---
 
 ## Challenge: Hand-dimmed lamp (graded)
 
-Build a small lamp for a specific moment (reading, a night light, a mood) that you switch and dim by hand.
+**Must have**
 
-**Must have** (tick each box when it works: edit this file and change `[ ]` to `[x]`)
-
-- [ ] A potentiometer controls brightness smoothly
-- [ ] A button toggles the lamp on and off
-- [ ] Brightness is kept when you switch back on
-- [ ] The Serial Monitor shows the knob value
+- [x] A potentiometer controls brightness smoothly
+- [x] A button toggles the lamp on and off
+- [x] Brightness is kept when you switch back on
+- [x] The Serial Monitor shows the knob value
 
 **Hand in by 11:30**
 
@@ -26,49 +24,56 @@ Build a small lamp for a specific moment (reading, a night light, a mood) that y
 
 ## What we built
 
-_Two or three sentences: what does it do, who is it for, and how does a person interact with it?_
+Hem construït una làmpada per posar a l'entrada de l'habitació d'un adolescent. La seva funció és comunicar als altres si té ganes de socialitzar o prefereix estar sol.
+
+Quan la llum està molt intensa, significa que no vol que ningú entri ni el molesti. Quan la llum és més fluixa, significa que està més obert a socialitzar. Quan la llum està apagada, vol dir que està disponible i que els altres poden entrar.
+
+La intensitat es regula amb un potenciòmetre i es pot encendre o apagar amb un botó.
 
 ## Materials
 
-_List every component and material you used._
-
 | Component / material | Quantity | Notes |
-| --- | --- | --- |
 | Arduino Uno | 1 | |
-| | | |
-| | | |
+| Cable USB | 1 | |
+| Protoboard | 1 | |
+| Resistencies | 1 | |
+| Led | 1 | |
+| Button | 1 | |
+| Potenciòmetre | 1 | |
+| Jumpers | 8 | 2 blancs, 2 negres, 2 grocs, 1 taronja, 1 vermell|
+| Arduino Uno | 1 | |
 
 ## Photo
 
-![Hand-dimmed lamp (graded): photo](media/photo-1.jpg)
-
-_More photos? Add them to `media/` and copy the line above with the new file name (`photo-2.jpg`, …)._
+![Automatic night light: photo](media/photo-1.jpeg")
+![Automatic night light: photo](media/photo-2.jpeg)
 
 ## Video
 
-_Edit this file on github.com and drag your `.mp4` (under 10 MB) here, or paste an unlisted YouTube link._
+"video_proj2.mp4"
 
 ## Code
 
 - Arduino sketch: [`ti02/ti02.ino`](ti02/ti02.ino)
-- _Other files (Tinkercad link, extra sketches…): add them to this folder or paste a link._
 
 ## The toggle
 
-_Copy the lines of code that switch the lamp on and off, and explain how they avoid flicker._
+// int state = digitalRead(BUTTON_PIN);
 
-```cpp
-// paste here
-```
+if (lastState == HIGH && state == LOW) {
+on = !on;
+delay(30);
+}
+lastState = state;
 
 ## Problems and fixes
 
-_One thing that went wrong and what you did about it._
+Ens ha costat entendre els termes a l'Arduino, perquè tot el tema de muntar sí que ens ha sortit.
 
 ## Going further
 
-_Did you try the “going further” idea from the slide? What happened?_
+No hem fet més enllà perquè no ens ha donat temps, però sí he hem afegit el detall de quan regulem la intensitat el valor més baix és de 50, no de 0 perquè 0 és quan cliques el botó d'apagat.
 
 ## Use of AI
 
-_Where did you use AI today (explaining an error, ideas, reviewing…)? What did you change or check yourselves?_
+Ens ha ajudat a corretgir temes del codi, a trobar errors i a fer-nos comentaris per entendre les coses. A més, ens ha ajudat amb el funcionament de regular la intensitat, que en un inci no ho haviem aconseguit fer.
