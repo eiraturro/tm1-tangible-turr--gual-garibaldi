@@ -1,6 +1,6 @@
 # Multimedia Technologies I · Tangible Interactions
 
-**Team:** _Name Surname (github-username), Name Surname (github-username), Name Surname (github-username)_
+**Team:** _Eira Turro, Xenia Gual, Raul Ruiz, Carla Milene_
 
 This repository is your group's **logbook for Module 2 (Tangible Interactions)**. After every session you add your code, a photo and a short video of what you built. Your teacher reviews it after each deadline, and at the end of the module you have a portfolio of everything you made.
 
@@ -30,14 +30,14 @@ Every session ends with a challenge. Push it **by 11:30 the same day**.
 
 Do this once, in class. It takes about 20 minutes. **One member of the group** does steps 1–3; **everyone** does steps 4–6.
 
-| Step | Action                          | How                                                                                                                                                                      |
-| ---- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1    | **Copy this template**          | Open the template link from Moodle → green **Use this template** button → **Create a new repository**.                                                                   |
-| 2    | **Name it and make it private** | Owner: **you**. Name: `tm1-tangible-surname1-surname2-surname3`. Visibility: **Private**. Click **Create repository**.                                                                  |
-| 3    | **Add your teacher and team**   | In your new repository: **Settings** → **Collaborators** → **Add people** → type `TEACHER_USERNAME` → **Add**. Do the same for each teammate.                            |
+| Step | Action                          | How                                                                                                                                                                                 |
+| ---- | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1    | **Copy this template**          | Open the template link from Moodle → green **Use this template** button → **Create a new repository**.                                                                              |
+| 2    | **Name it and make it private** | Owner: **you**. Name: `tm1-tangible-surname1-surname2-surname3`. Visibility: **Private**. Click **Create repository**.                                                              |
+| 3    | **Add your teacher and team**   | In your new repository: **Settings** → **Collaborators** → **Add people** → type `TEACHER_USERNAME` → **Add**. Do the same for each teammate.                                       |
 | 4    | **Accept and submit the link**  | Teammates: accept the invitation (check your email or github.com/notifications). Everyone: paste the repository's address in the Moodle assignment _"Your GitHub repository link"_. |
-| 5    | **Install GitHub Desktop**      | Download it from [desktop.github.com](https://desktop.github.com), open it and sign in with your GitHub account.                                                         |
-| 6    | **Clone your repository**       | In GitHub Desktop: **File** → **Clone repository** → pick your group's repository → choose a folder on your computer (e.g. `Documents/GitHub`) → **Clone**.           |
+| 5    | **Install GitHub Desktop**      | Download it from [desktop.github.com](https://desktop.github.com), open it and sign in with your GitHub account.                                                                    |
+| 6    | **Clone your repository**       | In GitHub Desktop: **File** → **Clone repository** → pick your group's repository → choose a folder on your computer (e.g. `Documents/GitHub`) → **Clone**.                         |
 
 You now have a copy of this repository on your computer. That folder is where you work from now on.
 
